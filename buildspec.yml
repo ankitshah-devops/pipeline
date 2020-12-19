@@ -1,0 +1,14 @@
+version: 0.2
+
+phases
+  build: 
+     commands: 
+        - echo entered build stage
+        - mvn clean install
+  post_build:
+     commands:
+        - echo build stage completed
+artifacts:
+  files:
+     - target/helloworld-0.0.1-SNAPSHOT.jar
+  discard-paths: yes
