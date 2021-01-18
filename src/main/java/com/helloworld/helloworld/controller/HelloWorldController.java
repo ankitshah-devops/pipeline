@@ -8,6 +8,6 @@ public class HelloWorldController
 @RequestMapping("/")  
 public String hello()   
 {  
-return "CONTAINER RESTARTED SUCCESSFULLY AGAIN";  
+return "CONTAINER RUNNING FROM JENKINS SUCCESSFULLY";  
 }  
 }  
